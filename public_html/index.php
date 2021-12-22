@@ -2,7 +2,7 @@
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
-              echo "<a href=http://$output/Home/>Click here</a>";
+              echo "<a href=http://$output/Home/>$output/Home/</a>";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong<br>Refer to  Github Repository <br><a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme">https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme</a></p>';
