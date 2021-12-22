@@ -1,7 +1,4 @@
-<?php
-// Password protect this content
-require_once('protect-this.php');
-?>
+
 <?php
 $path    = 'Storage/';
 $files = scandir($path);
