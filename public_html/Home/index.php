@@ -40,5 +40,5 @@
 </html>
 <center>
 <h3>list of Torrents</h3> <br>
-<iframe src="/list.php" height="1000" width="700" title="Our List Of Torrents"></iframe>
+<iframe src="/Home/list.php" height="1000" width="700" title="Our List Of Torrents"></iframe>
 </center>
